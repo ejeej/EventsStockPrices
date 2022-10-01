@@ -27,4 +27,4 @@ if (! require("shiny")) {
   library("shiny")
 }
 
-runApp("EventsStockPrices")
+runApp("EventsStockPricesApp")
