@@ -1,6 +1,6 @@
 # Events vs. Stock Prices in Biotech (2017-2022)
 
-Using [BioPharmCatalyst](https://www.biopharmcatalyst.com) events in Biotech companies were parsed for the period from 2017-01-01 to 2022-01-31 and placed into [Events.xlsx]() file. All events were classified into several groups: 
+Using [BioPharmCatalyst](https://www.biopharmcatalyst.com) events in Biotech companies were parsed for the period from 2017-01-01 to 2022-01-31 and placed into Events.xlsx file. All events were classified into several groups: 
 
 - Approved - a drug was approved by the FDA, 
 - CRL - Complete Response Letter, rejection of approval by the FDA, 
@@ -28,5 +28,7 @@ The full list of the required R packages:
 - quantmod,
 - TTR,
 - plotly
+
+You can run the Shiny app by running the code in the RunApp.R file (it contains code for installing necessary packages if they are missing on your site) or by running the code in the app.R file inside the EventsStockPrices folder.
 
 ![image](https://user-images.githubusercontent.com/9775181/193405081-a872439d-061f-4adc-b5e9-0d3f464ea6aa.png)
